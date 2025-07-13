@@ -1,0 +1,78 @@
+
+h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+table td:first-child {
+    text-align: right;
+    font-weight: bold;
+    color: #555;
+    width: 35%;
+}
+
+table input[type="text"],
+table input[type="number"],
+table select,
+table input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+table input[type="text"]:focus,
+table input[type="number"]:focus,
+table select:focus,
+table input[type="file"]:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.2);
+}
+
+table input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+table input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table input[type="submit"]:active {
+    background-color: #004085;
+    transform: scale(0.98);
+}
+
+table tr:last-child td {
+    text-align: center;
+}
+

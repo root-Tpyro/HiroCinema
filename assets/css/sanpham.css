@@ -1,0 +1,65 @@
+
+    .product-container {
+        display: flex;
+        flex-wrap: wrap; /* Để các sản phẩm tự xuống dòng khi hết chiều rộng */
+        gap: 20px; /* Khoảng cách giữa các sản phẩm */
+        justify-content: center; /* Căn giữa các sản phẩm trong container */
+        margin-top: 20px;
+    }
+    .sanpham {
+        width: 200px; /* Chiều rộng của từng sản phẩm */
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out;
+    }
+    .sanpham:hover {
+        transform: scale(1.05); /* Hiệu ứng khi hover */
+    }
+    .sanpham .hinh img {
+        width: 100%;
+        height: 260px;
+        border-radius: 5px;
+    }
+    .sanpham .tensp {
+        margin: 10px 0;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .sanpham .gia {
+        color: #e74c3c;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .category-list {
+        display: flex; /* Sắp xếp theo hàng ngang */
+        gap: 15px; /* Khoảng cách giữa các mục */
+        list-style: none; /* Loại bỏ bullet points */
+        padding: 0;
+        justify-content: center; /* Căn giữa danh sách */
+        margin: 20px auto;
+    }
+
+    /* Mục trong danh sách */
+    .category-list li {
+        padding: 10px 20px; /* Khoảng cách bên trong */
+        background-color: #acb7c4; /* Màu nền */
+        border-radius: 5px; /* Bo góc */
+        transition: background 0.3s ease; /* Hiệu ứng chuyển đổi màu */
+    }
+
+    /* Liên kết trong danh sách */
+    .category-list li a {
+        text-decoration: none; /* Loại bỏ gạch chân */
+        color: black; /* Màu chữ */
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    /* Hiệu ứng hover */
+    .category-list li:hover {
+        background-color: #0056b3; /* Màu nền khi hover */
+    }

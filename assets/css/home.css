@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: fantasy;
+    background: #fff;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background: #230049;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+header img {
+    height: 60px;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+.booking {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.booking select, .booking button {
+    margin: 0 10px;
+    padding: 10px;
+}
+.section-title {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 28px;
+}
+.movie img {
+    transition: transform 0.3s ease-in-out;
+  }
+.movie:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+ }
+  
+h2 {
+    text-align: center;
+}
+.movies, .events {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.movie, .event {
+    width: 200px;
+    text-align: center;
+}
+.movie img, .event img {
+    width: 100%;
+    height: 300px;
+    border-radius: 6px;
+}
+footer {
+    background: #230049;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
